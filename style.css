@@ -14,15 +14,19 @@ body {
 input {
 	border: 2px solid #999;
 	font-family: 'Indie Flower', cursive;
-	color: #999;
   font-size: 20px;
   margin: 0 auto;
+	color: black;
+  background-color: white;
+  width: 150px;
+  height: 40px;
+	text-align: center;
 }
 
 #field {
 	font-family: 'Indie Flower', cursive;
 	font-size: 2.0em;
-  color: black;
+  color: #FFFFFF;
   font-size: 24px;
   margin: 0 auto;
 	text-align: center;
