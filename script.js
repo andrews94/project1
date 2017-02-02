@@ -1,11 +1,13 @@
+//EN - clean code!
+//EN - nice use of true and false
+
+
 var bank = new Array;
 words = prompt('Enter a word to play').toUpperCase();
 wordArray = words.split("")
 // user enters a word to begin the game.
 
-
-
-
+//EN - delete this line?
 var wordRandom = wordArray; // the word to guess will be chosen from the array above
 var newBank = new Array(wordRandom.length);
 var error = 0;
@@ -51,6 +53,8 @@ var checkChar = function(){
      hangman.src = "imgs/hang" + error + ".png";
 	}
 
+	//EN - you can put all this code to check if game is over into a separate function
+	//EN - also add set timeout to have the sounds appear  before the alerts
 	//checks if all letters have been found
 	var end = true;
 	for (var i = 0; i < newBank.length; i++){
