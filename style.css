@@ -5,6 +5,7 @@ body {
   position: relative;
   top: 100px;
   left: 30px;
+	width: 100%;
   background-size: cover;
   font-family: 'Indie Flower', cursive;
   color: white;

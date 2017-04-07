@@ -10,10 +10,11 @@
     <h1>2 Player Hangman Game</h1>
     <p id="field"></p>
       <form name="hangman2">
-        <input name="userinput" type="text" size="5" maxlength="1">
-        <input name="ratebutton" type="button" value="Guess" onClick="checkChar()">
-        <p id="createLetter">Wrong Letters:</p>
+        <input class="userinput" type="text" size="5" maxlength="1">
+        <input class="guess" type="button" value="Guess" onClick="checkChar()">
+        <p id="incorrectLetter">Wrong Letters:</p>
         <img src="imgs/hang0.png" id="hangman"><br />
+        <div class="wordDisplay"></div>
         <input type="button" value="Refresh Page" onClick="window.location.reload()">
         <div class="score">Score:</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
